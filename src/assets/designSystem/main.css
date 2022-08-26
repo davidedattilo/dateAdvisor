@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Lato';
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+}
+
+body,
+html {
+  font-family: Lato, sans-serif;
+  word-break: break-word;
+  height: -webkit-fill-available;
+  scroll-behavior: smooth;
+  background-color: rgb(255, 255, 255);
+  color: #4d4d4d;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.3;
+}

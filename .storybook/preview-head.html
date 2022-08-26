@@ -1,0 +1,49 @@
+<style>
+    * {
+        font-family: 'Lato', Arial, sans-serif !important;
+    }
+
+    html,
+    body {
+        height: fit-content;
+        min-height: 100vh;
+    }
+
+    code {
+        font-family: 'Courier New', Courier, monospace !important;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .grid-box {
+        border: 1px solid rgb(214, 214, 214);
+        background-color: rgb(233, 233, 233);
+        padding: 1rem;
+        color: rgb(77, 77, 77);
+        margin-bottom: 0.5rem !important;
+        font-family: 'Courier New', Courier, monospace !important;
+    }
+
+    body.night-mode #docs-root> :first-child,
+    html>body.night-mode {
+        background-color: #333c42;
+    }
+
+    body.night-mode * h1:not(.docs-story h1, #root h1),
+    body.night-mode * h2:not(.docs-story h2, #root h2),
+    body.night-mode * h3:not(.docs-story h3, #root h3),
+    body.night-mode * h4:not(.docs-story h4, #root h4),
+    body.night-mode * p:not(.docs-story p, #root p),
+    body.night-mode * b:not(.docs-story b, #root b),
+    body.night-mode * span:not(.docs-story span, #root span, td span, code span),
+    body.night-mode * th:not(.docs-story th, #root th),
+    body.night-mode * li:not(.docs-story li, #root li) {
+        color: #fff;
+    }
+
+    body.night-mode h2:not(.docs-story h2, #root h2) {
+        border-bottom: 1px solid rgba(255, 255, 255, .1);
+    }
+</style>
