@@ -48,7 +48,7 @@ const BadgeRow = ({ all_badges, isMyProfile }: BadgeRowProps) => {
             return;
         }
         let selected = all_badges?.filter(x => x.selected);
-        if (selected.length <= 3) {
+        if (selected.length <= 2) {
             badge_selected.unlocked ? badge_selected.selected = !badge_selected.selected : '';
             setBadge(badge_selected);
         } else {
@@ -112,7 +112,7 @@ const BadgeRow = ({ all_badges, isMyProfile }: BadgeRowProps) => {
                 }}
             >
                 <TitleModal>
-                    {"Seleziona fino ad un massimo di 4 Badges da usare sul tuo profilo."}
+                    {"Seleziona fino ad un massimo di 3 Badges da usare sul tuo profilo."}
                 </TitleModal>
                 <DialogContent>
                     <Container>

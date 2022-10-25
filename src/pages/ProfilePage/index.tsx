@@ -14,6 +14,7 @@ interface Props {
 }
 
 
+
 const ProfilePage = ({ profileData }: Props) => {
     const loggedUser = getUserInfo();
     const [profile, setProfile] = useState(profileData);
