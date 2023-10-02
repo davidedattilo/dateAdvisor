@@ -1,0 +1,18 @@
+{
+    "priority": 0,
+    "request": {
+        "method": "POST",
+        "urlPathPattern": "/api/users/authenticate"
+    },
+    "response": {
+        "status": 400,
+        "bodyFileName": "login_success.json",
+        "fixedDelayMilliseconds": 1000,
+        "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, PATCH, DELETE",
+            "Access-Control-Allow-Headers": "content-type"
+        }
+    }
+}
