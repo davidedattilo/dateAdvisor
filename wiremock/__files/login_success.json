@@ -1,0 +1,9 @@
+{
+    "result": 0,   
+    "message": "Operation ended successfully.", 
+    "id": "user.id",
+    "username": "user.username",
+    "firstName": "user.firstName",
+    "lastName": "user.lastName",
+    "token" : ""
+}

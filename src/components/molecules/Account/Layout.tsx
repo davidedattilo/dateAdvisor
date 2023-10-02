@@ -1,11 +1,10 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
+import { userService } from 'src/services/user.service';
 
-import { userService } from 'services';
 
-export { Layout };
 
-function Layout({ children }) {
+const Layout = ({ children }) => {
     const router = useRouter();
 
     useEffect(() => {
@@ -22,4 +21,6 @@ function Layout({ children }) {
             {children}
         </div>
     );
-}
+};
+
+export default Layout;

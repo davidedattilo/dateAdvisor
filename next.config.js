@@ -1,7 +1,7 @@
 module.exports = {
     reactStrictMode: true,
     serverRuntimeConfig: {
-        secret: 'THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING'
+        secret: 'dee44c87-886f-4103-9486-c24b9bcc58f2'
     },
     publicRuntimeConfig: {
         apiUrl: process.env.NODE_ENV === 'development'

@@ -1,4 +1,3 @@
-import Footer from '@components/organism/Footer';
 import Header from '@components/organism/Header';
 import StaticHead from '@components/organism/StaticHead';
 import { getProfileDatabyId } from '@utils/utility';
@@ -45,7 +44,7 @@ export default function Base(props) {
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
                 />
             </StaticHead>
-            <Header {...props} />
+            {/*<Header {...props} />*/}
             <main>
                 <DatePage {...props} />
                 <ProfilePage {...props} />
